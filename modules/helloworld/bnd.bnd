@@ -1,0 +1,7 @@
+Bundle-Name: Helloworld
+Bundle-SymbolicName: com.ignek.helloworld
+Bundle-Version: 1.0.0
+Export-Package: com.ignek.helloworld.constants
+Provide-Capability:\
+	liferay.language.resources;\
+		resource.bundle.base.name="content.Language"
