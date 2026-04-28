@@ -3,7 +3,7 @@
     background: #f6f4f4;
  }
 
-.employee-list .header{
+.employeeDTO-list .header{
     display: flex;
     align-items: center;
     margin-bottom: 10px;
@@ -37,7 +37,7 @@
     border-top-width: 1rem;
     }
 
-.employee-list tbody tr td{
+.employeeDTO-list tbody tr td{
     font-size:16px;
   }
 
@@ -60,47 +60,47 @@ tbody .action-png{
     height:16px;
   }
 
-.employee-list .pagination-items-per-page {
+.employeeDTO-list .pagination-items-per-page {
     display: none;
  }
 
-.employee-list .pagination-results {
+.employeeDTO-list .pagination-results {
     display: none;
  }
 
-.employee-list .pagination-bar{
+.employeeDTO-list .pagination-bar{
     margin-left: auto;
  }
 
 
-/* create-employee form */
+/* create-employeeDTO form */
 
-.add-employee .lexicon-icon {
+.add-employeeDTO .lexicon-icon {
     display: none;
  }
 
-.add-employee{
+.add-employeeDTO{
     margin-top: -15px;
  }
 
-.add-employee .container{
+.add-employeeDTO .container{
     background-color: white;
     border-radius: 15px;
     padding: 40px 110px;
  }
 
-.add-employee h2{
+.add-employeeDTO h2{
      margin-bottom: 30px;
      font-size: 26px;
      font-weight: 700;
  }
 
-.add-employee .form-control {
+.add-employeeDTO .form-control {
     width: 415px;
     height: 62px;
  }
 
-.add-employee .row .control-label{
+.add-employeeDTO .row .control-label{
     font-size: 16px;
     font-weight: 500;
     margin-bottom: 15px;

@@ -1,7 +1,7 @@
 <?xml version="1.0"?>
 
 <model-hints>
-	<model name="com.ignek.employee.model.Employee">
+	<model name="com.ignek.employeeDTO.model.Employee">
 		<field name="uuid" type="String" />
 		<field name="employeeId" type="long" />
 		<field name="firstName" type="String" />

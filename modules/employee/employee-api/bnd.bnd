@@ -7,4 +7,4 @@ Export-Package:\
 	com.ignek.employee.service,\
 	com.ignek.employee.service.persistence
 -check: EXPORTS
--includeresource: META-INF/service.xml=../employee-service/service.xml
+-includeresource: META-INF/service.xml=../employeeDTO-service/service.xml

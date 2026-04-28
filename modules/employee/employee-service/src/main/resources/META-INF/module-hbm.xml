@@ -2,8 +2,8 @@
 <!DOCTYPE hibernate-mapping PUBLIC "-//Hibernate/Hibernate Mapping DTD 3.0//EN" "http://www.hibernate.org/dtd/hibernate-mapping-3.0.dtd">
 
 <hibernate-mapping auto-import="false" default-lazy="false">
-	<import class="com.ignek.employee.model.Employee" />
-	<class name="com.ignek.employee.model.impl.EmployeeImpl" table="Emp_Employee">
+	<import class="com.ignek.employeeDTO.model.Employee" />
+	<class name="com.ignek.employeeDTO.model.impl.EmployeeImpl" table="Emp_Employee">
 		<id access="com.liferay.portal.dao.orm.hibernate.MethodPropertyAccessor" name="employeeId" type="long">
 			<generator class="assigned" />
 		</id>
