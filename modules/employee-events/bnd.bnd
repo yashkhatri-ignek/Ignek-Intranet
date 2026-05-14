@@ -1,0 +1,3 @@
+Bundle-Name: employee login events
+Bundle-SymbolicName: com.ignek.employee.event
+Bundle-Version: 1.0.0

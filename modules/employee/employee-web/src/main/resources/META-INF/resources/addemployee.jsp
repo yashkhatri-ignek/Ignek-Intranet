@@ -24,7 +24,7 @@
     </div>
 
     <div class="col-12 mb-3">
-	<aui:input name="designation" placeholder="Enter your designation" placeholderCSS="font-size:30px;" label="Designation" style="width: 904px;">
+	<aui:input name="designation" placeholder="Enter your designation" label="Designation">
  		<aui:validator name="required"/>
 	</aui:input>
     </div>

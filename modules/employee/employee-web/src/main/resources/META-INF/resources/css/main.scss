@@ -1,12 +1,13 @@
 
 .portlet-decorate .portlet-content {
     background: #f6f4f4;
+    padding: 1.5rem;
+    padding-top: 0px;
  }
 
-.employeeDTO-list .header{
+.employee-list .header{
     display: flex;
     align-items: center;
-    margin-bottom: 10px;
  }
 
 .header h2{
@@ -24,83 +25,149 @@
     align-content: center;
  }
 
-.table tr th{
+.employee-table .container-view {
+    padding-top: 0.5rem;
+    padding-bottom: 0px;
+}
+
+.table-column, .table-cell-contract, .table-autofit td, .table-autofit th {
+    width: unset;
+ }
+
+.employee-table table thead tr th{
     font-size: 12px;
-    font-weight: lighter;
     color: #ACACAC;
     font-weight: 600;
     padding-top: 15px;
+    background-color: #f6f4f4;
  }
 
-.table td {
+.employee-table table tbody tr {
+    height: 55px;
+    width: 1110px;
+ }
+
+.employee-table table tbody td{
     border-color: #f6f4f4;
-    border-top-width: 1rem;
-    }
-
-.employeeDTO-list tbody tr td{
-    font-size:16px;
-  }
-
-tbody .action-png{
-    width: 40px;
+    border-top-width: 0.5rem;
+    font-size:14px;
  }
 
-.update-link img{
+.employee-table .table-list.table-striped tbody tr:nth-of-type(odd) td, .table-list.table-striped tbody tr:nth-of-type(odd) th {
+    background-color: #ffffff;
+}
+
+.employee-table .table-list {
+    border-style: none;
+    border-top-style: solid;
+ }
+
+.employee-table .update-link img{
     width: 20px;
     height: 12px;
 }
 
-.delete-link img{
+.employee-table .delete-link img{
     width: 14px;
     height: 12px;
 }
 
-.download-link img{
+.employee-table .download-link img{
     width:16px;
     height:16px;
   }
 
-.employeeDTO-list .pagination-items-per-page {
+/* pagination */
+
+.employee-list .pagination-items-per-page {
     display: none;
  }
 
-.employeeDTO-list .pagination-results {
+.employee-list .pagination-results {
     display: none;
  }
 
-.employeeDTO-list .pagination-bar{
+.employee-list .pagination-bar{
     margin-left: auto;
  }
 
+.pagination{
+  margin-left: 773px;
+ }
 
-/* create-employeeDTO form */
+.page-item{
+    margin-left: 0px;
+    margin-right: 12.5px;
+ }
 
-.add-employeeDTO .lexicon-icon {
+.page-item:first-child .page-link{
+    width: 34px;
+    height: 34px;
+    border-radius: 50px;
+	margin-right: 5px;
+ }
+
+.page-item:last-child .page-link {
+	border-radius: 50px;
+ }
+
+.page-item .page-link{
+    width: 34px;
+    height: 34px;
+	border-radius: 50px;
+	border: 1px solid #898989;
+	color: #898989;
+ }
+
+.page-item a{
+    text-decoration: none;
+ }
+
+.page-item.active .page-link {
+    background-color: #898989;
+    border-color: #898989;
+    color: #ffffff !important;
+ }
+
+li.page-item.disabled {
+    margin-right: 25px !important;
+ }
+
+.lfr-search-container-wrapper a:not(.component-action):not(.btn) {
+    text-decoration: none;
+ }
+
+.lfr-action-column a{
+    padding: 0px 6px;
+ }
+
+/* create-employee form */
+
+.add-employee .lexicon-icon {
     display: none;
  }
 
-.add-employeeDTO{
-    margin-top: -15px;
+.add-employee{
+    margin-top: 20px;
  }
 
-.add-employeeDTO .container{
+.add-employee .container{
     background-color: white;
     border-radius: 15px;
     padding: 40px 110px;
  }
 
-.add-employeeDTO h2{
+.add-employee h2{
      margin-bottom: 30px;
      font-size: 26px;
      font-weight: 700;
  }
 
-.add-employeeDTO .form-control {
-    width: 415px;
+.add-employee .form-control {
     height: 62px;
  }
 
-.add-employeeDTO .row .control-label{
+.add-employee .row .control-label{
     font-size: 16px;
     font-weight: 500;
     margin-bottom: 15px;
