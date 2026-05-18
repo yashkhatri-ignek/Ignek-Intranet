@@ -1,0 +1,99 @@
+.portlet-body {
+    background-color: #f0f2f5 !important;
+}
+
+.login-container {
+    width: 475px;
+    height: 550px;
+    border-radius: 20px;
+    padding: 40px 0px;
+    margin: 0 auto !important;
+    box-shadow: 0 4px 24px rgba(0, 0, 0, 0.08) !important;
+    background-color: #ffffff;
+}
+
+.login-container .sign-in-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.login-container .site-name {
+    display: flex;
+    align-items: center;
+    margin-bottom: 28px;
+    margin-left: 50px;
+}
+
+.login-container .site-name h1 {
+    font-size: 32px;
+    font-weight: 700;
+    border-left: 6px solid #00979E !important;
+    padding-left: 12px;
+    text-transform: uppercase;
+}
+
+.login-container .sign-in-content {
+    text-align: center;
+    margin-bottom: 24px;
+}
+
+.sign-in-content .h3 {
+    font-size: 22px;
+    font-weight: 600;
+    text-transform: uppercase;
+}
+
+.sign-in-content small {
+    font-size: 14px;
+    color: #6C6C6C;
+    font-weight: 400;
+}
+
+.panel-body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.panel-body .control-label {
+    font-size: 14px !important;
+    font-weight: 500 !important;
+    color: #6C6C6C !important;
+    margin-bottom: 6px !important;
+}
+
+.login-container .button-holder {
+    margin-left: 18px;
+}
+
+.login-container .show input {
+    width: 415px;
+    height: 44px;
+    border-radius: 4px;
+    background-color: #ffffff;
+}
+
+.login-container .button-holder {
+    margin-left: 30px;
+}
+
+.login-container .btn {
+    width: 415px;
+    height: 44px;
+    border-radius: 4px;
+    background-color: #00979E;
+}
+
+.login-container .btn .lfr-btn-label {
+    font-size: 14px;
+    text-transform: uppercase;
+    font-weight: 500;
+}
+
+.login-container .show input {
+    width: 415px;
+    height: 44px;
+    border-radius: 4px;
+}
