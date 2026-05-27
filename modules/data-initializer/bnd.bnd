@@ -1,0 +1,8 @@
+Bundle-Name: data initializer
+Bundle-SymbolicName: com.ignek.data.initializer
+Bundle-Version: 1.0.0
+Export-Package: com.ignek.data.initializer.constants
+Bundle-Activator: com.ignek.data.initializer.action.ConfigurationCreator
+Provide-Capability:\
+	liferay.language.resources;\
+		resource.bundle.base.name="content.Language"
