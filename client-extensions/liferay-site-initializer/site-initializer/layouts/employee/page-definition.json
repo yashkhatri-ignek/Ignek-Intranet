@@ -1,0 +1,37 @@
+{
+  "pageElement": {
+    "pageElements": [
+      {
+        "definition": {
+          "fragmentStyle": {
+            "hidden": true
+          },
+          "widgetInstance": {
+            "widgetName": "com_ignek_employeetest_web_EmployeeTestPortlet"
+          }
+        },
+        "id": "f39cd193-965e-c018-9744-0e185d703596",
+        "type": "Widget"
+      },
+      {
+        "definition": {
+          "fragmentStyle": {
+            "marginTop": "-10px"
+          },
+          "widgetInstance": {
+            "widgetConfig": {},
+            "widgetName": "com_ignek_employee_web_EmployeePortlet"
+          }
+        },
+        "id": "1f7e8666-b8c5-f49b-99a9-3d94d2179107",
+        "type": "Widget"
+      }
+    ],
+    "type": "Root"
+  },
+  "settings": {
+    "colorSchemeName": "01",
+    "themeName": "sidebar-theme"
+  },
+  "version": 1.1
+}

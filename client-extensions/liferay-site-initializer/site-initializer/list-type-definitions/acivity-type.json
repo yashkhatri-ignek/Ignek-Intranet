@@ -1,0 +1,81 @@
+{
+  "externalReferenceCode": "EMPLOYEE-ACTIVITY-TYPE-ERC-001",
+  "name": "Employee Activity Type",
+  "name_i18n": {
+    "en_US": "Employee Activity Type"
+  },
+  "listTypeEntries": [
+    {
+      "externalReferenceCode": "EMP-ACT-LOGIN-001",
+      "key": "Login",
+      "name": "Login",
+      "name_i18n": {
+        "en_US": "Login"
+      },
+      "type": ""
+    },
+    {
+      "externalReferenceCode": "EMP-ACT-LOGOUT-001",
+      "key": "Logout",
+      "name": "Logout",
+      "name_i18n": {
+        "en_US": "Logout"
+      },
+      "type": ""
+    },
+    {
+      "externalReferenceCode": "EMP-ACT-ADD-001",
+      "key": "Add",
+      "name": "Add",
+      "name_i18n": {
+        "en_US": "Add"
+      },
+      "type": ""
+    },
+    {
+      "externalReferenceCode": "EMP-ACT-UPDATE-001",
+      "key": "Update",
+      "name": "Update",
+      "name_i18n": {
+        "en_US": "Update"
+      },
+      "type": ""
+    },
+    {
+      "externalReferenceCode": "EMP-ACT-DELETE-001",
+      "key": "Delete",
+      "name": "Delete",
+      "name_i18n": {
+        "en_US": "Delete"
+      },
+      "type": ""
+    },
+    {
+      "externalReferenceCode": "EMP-ACT-ROLE-ASSIGNED-001",
+      "key": "RoleAssigned",
+      "name": "Role_Assigned",
+      "name_i18n": {
+        "en_US": "Role_Assigned"
+      },
+      "type": ""
+    },
+    {
+      "externalReferenceCode": "EMP-ACT-ROLE-REMOVED-001",
+      "key": "RoleRemoved",
+      "name": "Role_Removed",
+      "name_i18n": {
+        "en_US": "Role_Removed"
+      },
+      "type": ""
+    },
+    {
+      "externalReferenceCode": "EMP-ACT-ROLE-UPDATED-001",
+      "key": "RoleUpdated",
+      "name": "Role_Updated",
+      "name_i18n": {
+        "en_US": "Role_Updated"
+      },
+      "type": ""
+    }
+  ]
+}

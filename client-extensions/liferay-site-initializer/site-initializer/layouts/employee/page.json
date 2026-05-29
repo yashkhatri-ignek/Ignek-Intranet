@@ -1,0 +1,10 @@
+{
+  "friendlyURL": "/employee",
+  "hidden": false,
+  "layoutTemplateId": "[$PORTAL_PROPERTY:default.guest.public.layout.template.id$]",
+  "name": "Employee",
+  "priority": 0,
+  "private": false,
+  "system": false,
+  "type": "Content"
+}
