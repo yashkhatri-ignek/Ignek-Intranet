@@ -1,0 +1,41 @@
+{
+  "pageElement": {
+    "pageElements": [
+      {
+        "definition": {
+          "fragment": {
+            "key": "BASIC_COMPONENT-heading"
+          },
+          "fragmentConfig": {
+            "headingLevel": "h1"
+          },
+          "fragmentFields": [
+            {
+              "id": "element-text",
+              "value": {
+                "fragmentLink": {},
+                "text": {
+                  "value_i18n": {
+                    "en_US": "Human Resources Page"
+                  }
+                }
+              }
+            }
+          ],
+          "fragmentStyle": {
+            "textAlign": "center"
+          },
+          "indexed": true
+        },
+        "id": "c0dc613c-09f5-d7ca-66fc-0846df1c2e99",
+        "type": "Fragment"
+      }
+    ],
+    "type": "Root"
+  },
+  "settings": {
+    "colorSchemeName": "01",
+    "themeName": "sidebar-theme"
+  },
+  "version": 1.1
+}
