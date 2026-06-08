@@ -1,7 +1,0 @@
-Bundle-Name: mail scheduler
-Bundle-SymbolicName: com.ignek.mail.scheduler
-Bundle-Version: 1.0.0
-Export-Package: com.ignek.mail.scheduler.constants
-Provide-Capability:\
-	liferay.language.resources;\
-		resource.bundle.base.name="content.Language"
