@@ -1,12 +1,25 @@
-.portlet-body {
+
+.fade.modal.d-block.liferay-modal.show {
     background-color: #f0f2f5 !important;
 }
 
+.modal-dialog .modal-header {
+    display: none;
+}
+
+.modal-content {
+    background-color: transparent;
+    border-radius: unset;
+    border: none;
+    box-shadow: none;
+}
+
 .login-container {
-    width: 475px;
+    width: 100% !important;
+    max-width: 475px !important;
     height: 550px;
     border-radius: 20px;
-    padding: 40px 0px;
+    padding: 40px 20px;
     margin: 0 auto !important;
     box-shadow: 0 4px 24px rgba(0, 0, 0, 0.08) !important;
     background-color: #ffffff;
@@ -34,53 +47,55 @@
     text-transform: uppercase;
 }
 
-.login-container .sign-in-content {
+.login-container .login-content {
     text-align: center;
     margin-bottom: 24px;
 }
 
-.sign-in-content .h3 {
+.login-content h3 {
     font-size: 22px;
     font-weight: 600;
     text-transform: uppercase;
 }
 
-.sign-in-content small {
+.login-content small {
     font-size: 14px;
     color: #6C6C6C;
     font-weight: 400;
 }
 
-.panel-body {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-}
-
-.panel-body .control-label {
+.panel-body .input-text-wrapper .control-label {
     font-size: 14px !important;
     font-weight: 500 !important;
     color: #6C6C6C !important;
     margin-bottom: 6px !important;
 }
 
-.login-container .button-holder {
-    margin-left: 18px;
-}
-
-.login-container .show input {
-    width: 415px;
-    height: 44px;
+.login-container .form-control,
+.login-container input[type="text"],
+.login-container input[type="password"] {
+    width: 100% !important;
+    max-width: 415px !important;
+    height: 44px !important;
     border-radius: 4px;
     background-color: #ffffff;
 }
 
+.login-container .form-control::placeholder,
+.login-container input[type="text"]::placeholder,
+.portlet-login input[type="password"]::placeholder {
+    color: #b0b0b0 !important;
+    font-size: 12px !important;
+}
+
 .login-container .button-holder {
-    margin-left: 30px;
+    display: flex;
+    justify-content: center;
 }
 
 .login-container .btn {
-    width: 415px;
+    width: 100% !important;
+    max-width: 395px !important;
     height: 44px;
     border-radius: 4px;
     background-color: #00979E;
@@ -90,10 +105,4 @@
     font-size: 14px;
     text-transform: uppercase;
     font-weight: 500;
-}
-
-.login-container .show input {
-    width: 415px;
-    height: 44px;
-    border-radius: 4px;
 }

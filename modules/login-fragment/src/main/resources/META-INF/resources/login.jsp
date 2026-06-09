@@ -23,8 +23,8 @@
 
 		<liferay-ui:message arguments="<%= signedInAs %>" key="you-are-signed-in-as-x" translateArguments="<%= false %>" />
 	</c:when>
-	<c:otherwise>
 
+	<c:otherwise>
 		<%
 		String formName = "loginForm";
 
@@ -50,14 +50,14 @@
 
 		<div class="login-container">
 
-		     <div class="site-name">
+		    <div class="site-name">
 		         <h1> <%= themeDisplay.getSiteGroupName() %> </h1>
             </div>
 
-        <div class="sign-in-content">
-            <h3>Sign In</h3>
-            <small> Enter your credentials to access your account </small>
-        </div>
+            <div class="login-content">
+                <h3>Sign In</h3>
+                <small> Enter your credentials to access your account </small>
+            </div>
 
 			<portlet:actionURL name="/login/login" secure="<%= request.isSecure() %>" var="loginURL">
 				<portlet:param name="mvcRenderCommandName" value="/login/login" />
@@ -151,7 +151,7 @@
 
 				<liferay-util:dynamic-include key="com.liferay.login.web#/login.jsp#alertPost" />
 
-				<aui:fieldset cssClass="input-login">
+				<aui:fieldset>
 
 					<%
 					String loginLabel = null;
@@ -177,6 +177,9 @@
 
 					<span id="<portlet:namespace />passwordCapsLockSpan" style="display: none;"><liferay-ui:message key="caps-lock-is-on" /></span>
 
+                    <c:if test="<%= company.isAutoLogin() %>">
+                        <aui:input checked="<%= rememberMe %>" name="rememberMe" type="checkbox" />
+                    </c:if>
 				</aui:fieldset>
 
 				<aui:button-row>
@@ -184,9 +187,7 @@
 				</aui:button-row>
 			</aui:form>
 
-			<%@ include file="/navigation.jspf" %>
-
-		</div>
+               <%@ include file="/navigation.jspf" %>
 
 		<aui:script sandbox="<%= true %>">
 			var form = document.getElementById('<portlet:namespace /><%= formName %>');
@@ -229,4 +230,5 @@
 			}
 		</aui:script>
 	</c:otherwise>
+
 </c:choose>

@@ -1,0 +1,576 @@
+{
+  "pageElement": {
+    "pageElements": [
+      {
+        "definition": {
+          "fragment": {
+            "key": "ignek-banner",
+            "siteKey": "Ignek Intranet Site Initializer"
+          },
+          "fragmentConfig": {},
+          "fragmentFields": [
+            {
+              "id": "text1",
+              "value": {
+                "fragmentLink": {}
+              }
+            },
+            {
+              "id": "text2",
+              "value": {
+                "fragmentLink": {}
+              }
+            },
+            {
+              "id": "img1",
+              "value": {
+                "fragmentImage": {
+                  "url": {
+                    "value_i18n": {}
+                  }
+                },
+                "fragmentLink": {}
+              }
+            }
+          ],
+          "indexed": true
+        },
+        "id": "22becac3-9e95-3e94-a4ce-f3925ad99e14",
+        "type": "Fragment"
+      },
+      {
+        "definition": {
+          "widgetInstance": {
+            "widgetConfig": {
+              "showCurrentGroup": "true",
+              "displayStyle": "ddmTemplate_37252",
+              "displayStyleGroupKey": "Guest",
+              "showLayout": "true",
+              "showPortletBreadcrumb": "true",
+              "showParentGroups": "true",
+              "displayStyleGroupId": "20117",
+              "showGuestGroup": "false"
+            },
+            "widgetName": "com_liferay_site_navigation_breadcrumb_web_portlet_SiteNavigationBreadcrumbPortlet"
+          }
+        },
+        "id": "38fdf922-398f-132d-976b-ca4a3564516f",
+        "type": "Widget"
+      },
+      {
+        "definition": {
+          "fragmentStyle": {
+            "marginTop": "3"
+          },
+          "gutters": true,
+          "indexed": true,
+          "modulesPerRow": 4,
+          "numberOfColumns": 4,
+          "reverseOrder": false,
+          "rowViewports": [
+            {
+              "id": "landscapeMobile",
+              "rowViewportDefinition": {
+                "modulesPerRow": 1
+              }
+            },
+            {
+              "id": "portraitMobile",
+              "rowViewportDefinition": {}
+            },
+            {
+              "id": "tablet",
+              "rowViewportDefinition": {}
+            }
+          ],
+          "verticalAlignment": "top"
+        },
+        "id": "be305221-f1e6-8e87-dc5c-9a95198c7ec3",
+        "pageElements": [
+          {
+            "definition": {
+              "columnViewports": [
+                {
+                  "columnViewportDefinition": {
+                    "size": 12
+                  },
+                  "id": "landscapeMobile"
+                },
+                {
+                  "columnViewportDefinition": {},
+                  "id": "portraitMobile"
+                },
+                {
+                  "columnViewportDefinition": {},
+                  "id": "tablet"
+                }
+              ],
+              "size": 3
+            },
+            "id": "9a5e90f7-0c26-488d-2971-5388a2cdda18",
+            "pageElements": [
+              {
+                "definition": {
+                  "fragment": {
+                    "key": "dashboard-cards",
+                    "siteKey": "Ignek Intranet Site Initializer"
+                  },
+                  "fragmentConfig": {},
+                  "fragmentFields": [
+                    {
+                      "id": "txt2",
+                      "value": {
+                        "fragmentLink": {}
+                      }
+                    },
+                    {
+                      "id": "txt1",
+                      "value": {
+                        "fragmentLink": {}
+                      }
+                    },
+                    {
+                      "id": "img1",
+                      "value": {
+                        "fragmentImage": {
+                          "url": {
+                            "value_i18n": {
+                              "en_US": "/documents/d/guest/cap-1?imagePreview=1"
+                            }
+                          }
+                        },
+                        "fragmentLink": {}
+                      }
+                    }
+                  ],
+                  "indexed": true
+                },
+                "id": "4a2fceb4-2a5c-f99a-e2d2-6039dfd13901",
+                "type": "Fragment"
+              }
+            ],
+            "type": "Column"
+          },
+          {
+            "definition": {
+              "columnViewports": [
+                {
+                  "columnViewportDefinition": {
+                    "size": 12
+                  },
+                  "id": "landscapeMobile"
+                },
+                {
+                  "columnViewportDefinition": {},
+                  "id": "portraitMobile"
+                },
+                {
+                  "columnViewportDefinition": {},
+                  "id": "tablet"
+                }
+              ],
+              "size": 3
+            },
+            "id": "e8870dbc-39cf-8cb1-814b-2a90b92e2816",
+            "pageElements": [
+              {
+                "definition": {
+                  "fragment": {
+                    "key": "dashboard-cards",
+                    "siteKey": "Ignek Intranet Site Initializer"
+                  },
+                  "fragmentConfig": {},
+                  "fragmentFields": [
+                    {
+                      "id": "txt2",
+                      "value": {
+                        "fragmentLink": {},
+                        "text": {
+                          "value_i18n": {
+                            "en_US": "4"
+                          }
+                        }
+                      }
+                    },
+                    {
+                      "id": "txt1",
+                      "value": {
+                        "fragmentLink": {},
+                        "text": {
+                          "value_i18n": {
+                            "en_US": "Technologies"
+                          }
+                        }
+                      }
+                    },
+                    {
+                      "id": "img1",
+                      "value": {
+                        "fragmentImage": {
+                          "url": {
+                            "value_i18n": {
+                              "en_US": "/documents/d/guest/save2-1?imagePreview=1"
+                            }
+                          }
+                        },
+                        "fragmentLink": {}
+                      }
+                    }
+                  ],
+                  "indexed": true
+                },
+                "id": "10e4e541-18ad-943c-747d-2ff1643f4985",
+                "type": "Fragment"
+              }
+            ],
+            "type": "Column"
+          },
+          {
+            "definition": {
+              "columnViewports": [
+                {
+                  "columnViewportDefinition": {
+                    "size": 12
+                  },
+                  "id": "landscapeMobile"
+                },
+                {
+                  "columnViewportDefinition": {},
+                  "id": "portraitMobile"
+                },
+                {
+                  "columnViewportDefinition": {},
+                  "id": "tablet"
+                }
+              ],
+              "size": 3
+            },
+            "id": "26fb77d4-895d-08bf-bafa-74a395a43266",
+            "pageElements": [
+              {
+                "definition": {
+                  "fragment": {
+                    "key": "dashboard-cards",
+                    "siteKey": "Ignek Intranet Site Initializer"
+                  },
+                  "fragmentConfig": {},
+                  "fragmentFields": [
+                    {
+                      "id": "txt2",
+                      "value": {
+                        "fragmentLink": {},
+                        "text": {
+                          "value_i18n": {
+                            "en_US": "10"
+                          }
+                        }
+                      }
+                    },
+                    {
+                      "id": "txt1",
+                      "value": {
+                        "fragmentLink": {},
+                        "text": {
+                          "value_i18n": {
+                            "en_US": "Images"
+                          }
+                        }
+                      }
+                    },
+                    {
+                      "id": "img1",
+                      "value": {
+                        "fragmentImage": {
+                          "url": {
+                            "value_i18n": {
+                              "en_US": "/documents/d/guest/save2-1?imagePreview=1"
+                            }
+                          }
+                        },
+                        "fragmentLink": {}
+                      }
+                    }
+                  ],
+                  "indexed": true
+                },
+                "id": "34d6d723-ef4f-87b8-19c2-3eeb8c40bfef",
+                "type": "Fragment"
+              }
+            ],
+            "type": "Column"
+          },
+          {
+            "definition": {
+              "columnViewports": [
+                {
+                  "columnViewportDefinition": {
+                    "size": 12
+                  },
+                  "id": "landscapeMobile"
+                },
+                {
+                  "columnViewportDefinition": {},
+                  "id": "portraitMobile"
+                },
+                {
+                  "columnViewportDefinition": {},
+                  "id": "tablet"
+                }
+              ],
+              "size": 3
+            },
+            "id": "ead26111-f8a2-a2c5-356f-d36d43b85f57",
+            "pageElements": [
+              {
+                "definition": {
+                  "fragment": {
+                    "key": "dashboard-cards",
+                    "siteKey": "Ignek Intranet Site Initializer"
+                  },
+                  "fragmentConfig": {},
+                  "fragmentFields": [
+                    {
+                      "id": "txt2",
+                      "value": {
+                        "fragmentLink": {},
+                        "text": {
+                          "value_i18n": {
+                            "en_US": "2"
+                          }
+                        }
+                      }
+                    },
+                    {
+                      "id": "txt1",
+                      "value": {
+                        "fragmentLink": {},
+                        "text": {
+                          "value_i18n": {
+                            "en_US": "Users"
+                          }
+                        }
+                      }
+                    },
+                    {
+                      "id": "img1",
+                      "value": {
+                        "fragmentImage": {
+                          "url": {
+                            "value_i18n": {
+                              "en_US": "/documents/d/guest/user-1?imagePreview=1"
+                            }
+                          }
+                        },
+                        "fragmentLink": {}
+                      }
+                    }
+                  ],
+                  "indexed": true
+                },
+                "id": "847b57a3-7bc4-3775-6478-e8e3f3333149",
+                "type": "Fragment"
+              }
+            ],
+            "type": "Column"
+          }
+        ],
+        "type": "Row"
+      },
+      {
+        "definition": {
+          "widgetInstance": {
+            "widgetConfig": {
+              "displayStyle": "ddmTemplate_36792",
+              "assetVocabularyExternalReferenceCodes_646a7d5c-d086-e59b-3b0e-6231a7ed2529": "130dc18e-85e4-969c-aa56-c9ca17db7c8a",
+              "displayStyleGroupKey": "Guest",
+              "allAssetVocabularies": "false",
+              "assetVocabularyGroupExternalReferenceCodes": "646a7d5c-d086-e59b-3b0e-6231a7ed2529",
+              "assetVocabularyExternalReferenceCodes": "644ef43a-4239-8e4b-e62a-010f3a37dd7c"
+            },
+            "widgetName": "com_liferay_asset_categories_navigation_web_portlet_AssetCategoriesNavigationPortlet"
+          }
+        },
+        "id": "2b0e1f25-d397-3a5b-b103-efdaaa4450ba",
+        "type": "Widget"
+      },
+      {
+        "definition": {
+          "widgetInstance": {
+            "widgetConfig": {
+              "enableComments": "false",
+              "emailAssetEntryAddedBody_ja_JP": "Dear [$TO_NAME$],<br /><br />\n\nThis is an autogenerated email for the [$PORTLET_NAME$] portlet.<br /><br />\n\nThe following asset entries have been added to [$PORTLET_TITLE$]: [$ASSET_ENTRIES$].<br /><br />\n\nSincerely,<br />\n[$FROM_NAME$]<br />\n[$FROM_ADDRESS$]",
+              "enableRelatedAssets": "false",
+              "emailAssetEntryAddedBody_de_DE": "Dear [$TO_NAME$],<br /><br />\n\nThis is an autogenerated email for the [$PORTLET_NAME$] portlet.<br /><br />\n\nThe following asset entries have been added to [$PORTLET_TITLE$]: [$ASSET_ENTRIES$].<br /><br />\n\nSincerely,<br />\n[$FROM_NAME$]<br />\n[$FROM_ADDRESS$]",
+              "displayStyleGroupKey": "Guest",
+              "subtypeFieldsFilterEnabled": "false",
+              "emailAssetEntryAddedBody_fr_FR": "Dear [$TO_NAME$],<br /><br />\n\nThis is an autogenerated email for the [$PORTLET_NAME$] portlet.<br /><br />\n\nThe following asset entries have been added to [$PORTLET_TITLE$]: [$ASSET_ENTRIES$].<br /><br />\n\nSincerely,<br />\n[$FROM_NAME$]<br />\n[$FROM_ADDRESS$]",
+              "enableViewCountIncrement": "false",
+              "delta": "6",
+              "showAvailableLocales": "false",
+              "displayStyleGroupId": "20117",
+              "assetLinkBehavior": "viewInPortlet",
+              "emailAssetEntryAddedSubject_fi_FI": "New Asset Entries Added to [$PORTLET_TITLE$]",
+              "displayStyle": "ddmTemplate_35407",
+              "selectionStyle": "asset-list",
+              "enablePermissions": "true",
+              "emailAssetEntryAddedBody_zh_CN": "Dear [$TO_NAME$],<br /><br />\n\nThis is an autogenerated email for the [$PORTLET_NAME$] portlet.<br /><br />\n\nThe following asset entries have been added to [$PORTLET_TITLE$]: [$ASSET_ENTRIES$].<br /><br />\n\nSincerely,<br />\n[$FROM_NAME$]<br />\n[$FROM_ADDRESS$]",
+              "emailAssetEntryAddedSubject_ar_SA": "New Asset Entries Added to [$PORTLET_TITLE$]",
+              "emailAssetEntryAddedSubject_de_DE": "New Asset Entries Added to [$PORTLET_TITLE$]",
+              "emailAssetEntryAddedSubject_ca_ES": "New Asset Entries Added to [$PORTLET_TITLE$]",
+              "emailAssetEntryAddedSubject_ja_JP": "New Asset Entries Added to [$PORTLET_TITLE$]",
+              "enableRatings": "false",
+              "socialBookmarksTypes": "",
+              "emailAssetEntryAddedSubject_pt_BR": "New Asset Entries Added to [$PORTLET_TITLE$]",
+              "emailFromName": "ignek Test",
+              "abstractLength": "200",
+              "showMetadataDescriptions": "true",
+              "enableFlags": "false",
+              "emailAssetEntryAddedBody_hu_HU": "Dear [$TO_NAME$],<br /><br />\n\nThis is an autogenerated email for the [$PORTLET_NAME$] portlet.<br /><br />\n\nThe following asset entries have been added to [$PORTLET_TITLE$]: [$ASSET_ENTRIES$].<br /><br />\n\nSincerely,<br />\n[$FROM_NAME$]<br />\n[$FROM_ADDRESS$]",
+              "showAddContentButton": "true",
+              "emailAssetEntryAddedSubject_sv_SE": "New Asset Entries Added to [$PORTLET_TITLE$]",
+              "emailAssetEntryAddedBody_pt_BR": "Dear [$TO_NAME$],<br /><br />\n\nThis is an autogenerated email for the [$PORTLET_NAME$] portlet.<br /><br />\n\nThe following asset entries have been added to [$PORTLET_TITLE$]: [$ASSET_ENTRIES$].<br /><br />\n\nSincerely,<br />\n[$FROM_NAME$]<br />\n[$FROM_ADDRESS$]",
+              "emailAssetEntryAddedBody_ca_ES": "Dear [$TO_NAME$],<br /><br />\n\nThis is an autogenerated email for the [$PORTLET_NAME$] portlet.<br /><br />\n\nThe following asset entries have been added to [$PORTLET_TITLE$]: [$ASSET_ENTRIES$].<br /><br />\n\nSincerely,<br />\n[$FROM_NAME$]<br />\n[$FROM_ADDRESS$]",
+              "emailAssetEntryAddedSubject_zh_CN": "New Asset Entries Added to [$PORTLET_TITLE$]",
+              "showExtraInfo": "true",
+              "infoListProviderKey": "",
+              "assetListEntryId": "33275",
+              "showOnlyLayoutAssets": "false",
+              "emailAssetEntryAddedSubject_nl_NL": "New Asset Entries Added to [$PORTLET_TITLE$]",
+              "emailAssetEntryAddedSubject_es_ES": "New Asset Entries Added to [$PORTLET_TITLE$]",
+              "mergeUrlTags": "true",
+              "socialBookmarksDisplayStyle": "inline",
+              "emailAssetEntryAddedEnabled": "true",
+              "emailAssetEntryAddedBody_fi_FI": "Dear [$TO_NAME$],<br /><br />\n\nThis is an autogenerated email for the [$PORTLET_NAME$] portlet.<br /><br />\n\nThe following asset entries have been added to [$PORTLET_TITLE$]: [$ASSET_ENTRIES$].<br /><br />\n\nSincerely,<br />\n[$FROM_NAME$]<br />\n[$FROM_ADDRESS$]",
+              "metadataFields": "",
+              "showContextLink": "true",
+              "emailAssetEntryAddedSubject_fr_FR": "New Asset Entries Added to [$PORTLET_TITLE$]",
+              "emailAssetEntryAddedSubject_hu_HU": "New Asset Entries Added to [$PORTLET_TITLE$]",
+              "enableCommentRatings": "false",
+              "emailFromAddress": "test@gmail.com",
+              "emailAssetEntryAddedBody_sv_SE": "Dear [$TO_NAME$],<br /><br />\n\nThis is an autogenerated email for the [$PORTLET_NAME$] portlet.<br /><br />\n\nThe following asset entries have been added to [$PORTLET_TITLE$]: [$ASSET_ENTRIES$].<br /><br />\n\nSincerely,<br />\n[$FROM_NAME$]<br />\n[$FROM_ADDRESS$]",
+              "emailAssetEntryAddedBody_en_US": "<p>Dear [$TO_NAME$],<br />\n<br />\nThis is an autogenerated email for the [$PORTLET_NAME$] portlet.<br />\n<br />\nThe following asset entries have been added to [$PORTLET_TITLE$]: [$ASSET_ENTRIES$].<br />\n<br />\nSincerely,<br />\n[$FROM_NAME$]<br />\n[$FROM_ADDRESS$]</p>\n",
+              "enablePrint": "false",
+              "emailAssetEntryAddedBody_es_ES": "Dear [$TO_NAME$],<br /><br />\n\nThis is an autogenerated email for the [$PORTLET_NAME$] portlet.<br /><br />\n\nThe following asset entries have been added to [$PORTLET_TITLE$]: [$ASSET_ENTRIES$].<br /><br />\n\nSincerely,<br />\n[$FROM_NAME$]<br />\n[$FROM_ADDRESS$]",
+              "showAssetTitle": "true",
+              "enableSubscriptions": "false",
+              "paginationType": "regular",
+              "emailAssetEntryAddedBody_nl_NL": "Dear [$TO_NAME$],<br /><br />\n\nThis is an autogenerated email for the [$PORTLET_NAME$] portlet.<br /><br />\n\nThe following asset entries have been added to [$PORTLET_TITLE$]: [$ASSET_ENTRIES$].<br /><br />\n\nSincerely,<br />\n[$FROM_NAME$]<br />\n[$FROM_ADDRESS$]",
+              "emailAssetEntryAddedBody_ar_SA": "Dear [$TO_NAME$],<br /><br />\n\nThis is an autogenerated email for the [$PORTLET_NAME$] portlet.<br /><br />\n\nThe following asset entries have been added to [$PORTLET_TITLE$]: [$ASSET_ENTRIES$].<br /><br />\n\nSincerely,<br />\n[$FROM_NAME$]<br />\n[$FROM_ADDRESS$]",
+              "assetListEntryExternalReferenceCode": "cd4fa3f6-00b0-ef88-226d-ffbad9439206"
+            },
+            "widgetName": "com_liferay_asset_publisher_web_portlet_AssetPublisherPortlet"
+          }
+        },
+        "id": "e6bfc3d5-b5e2-74d9-8b11-e37b155acd9a",
+        "type": "Widget"
+      },
+      {
+        "definition": {
+          "indexed": true,
+          "layout": {}
+        },
+        "id": "fdd8030c-4088-e840-6635-fdc4d4259150",
+        "pageElements": [
+          {
+            "definition": {
+              "fragment": {
+                "key": "BASIC_COMPONENT-heading"
+              },
+              "fragmentConfig": {
+                "headingLevel": "h1"
+              },
+              "fragmentFields": [
+                {
+                  "id": "element-text",
+                  "value": {
+                    "fragmentLink": {},
+                    "text": {
+                      "value_i18n": {
+                        "en_US": "Media"
+                      }
+                    }
+                  }
+                }
+              ],
+              "fragmentStyle": {
+                "marginLeft": "4"
+              },
+              "indexed": true
+            },
+            "id": "34ae7e83-26f5-1001-4e07-390cc8e0798e",
+            "type": "Fragment"
+          },
+          {
+            "definition": {
+              "widgetInstance": {
+                "widgetConfig": {
+                  "displayStyle": "ddmTemplate_37891",
+                  "mimeTypes": [
+                    "application/vnd+liferay.video.external.shortcut+html",
+                    "audio/basic",
+                    "audio/mid",
+                    "audio/midi",
+                    "audio/mod",
+                    "audio/mp3",
+                    "audio/mp4",
+                    "audio/mpeg",
+                    "audio/mpeg3",
+                    "audio/ogg",
+                    "audio/vnd.wave",
+                    "audio/vorbis",
+                    "audio/wav",
+                    "audio/x-m4a",
+                    "audio/x-mid",
+                    "audio/x-midi",
+                    "audio/x-mod",
+                    "audio/x-mpeg",
+                    "audio/x-pn-realaudio",
+                    "audio/x-realaudio",
+                    "audio/x-wav",
+                    "image/bmp",
+                    "image/gif",
+                    "image/jpeg",
+                    "image/pjpeg",
+                    "image/png",
+                    "image/svg+xml",
+                    "image/tiff",
+                    "image/x-citrix-jpeg",
+                    "image/x-citrix-png",
+                    "image/x-ms-bmp",
+                    "image/x-png",
+                    "image/x-tiff",
+                    "video/avi",
+                    "video/mp4",
+                    "video/mpeg",
+                    "video/ogg",
+                    "video/quicktime",
+                    "video/theora",
+                    "video/webm",
+                    "video/x-flv",
+                    "video/x-m4v",
+                    "video/x-ms-wmv",
+                    "video/x-msvideo"
+                  ],
+                  "displayStyleGroupKey": "Guest",
+                  "selectedRepositoryId": "20117",
+                  "rootFolderId": "32152",
+                  "displayStyleGroupId": "20117"
+                },
+                "widgetName": "com_liferay_document_library_web_portlet_IGDisplayPortlet"
+              }
+            },
+            "id": "0be9dea9-4c57-86c2-4274-c28f22a6344a",
+            "type": "Widget"
+          }
+        ],
+        "type": "Section"
+      }
+    ],
+    "type": "Root"
+  },
+  "settings": {
+    "colorSchemeName": "01",
+    "themeName": "sidebar-theme"
+  },
+  "version": 1.1
+}

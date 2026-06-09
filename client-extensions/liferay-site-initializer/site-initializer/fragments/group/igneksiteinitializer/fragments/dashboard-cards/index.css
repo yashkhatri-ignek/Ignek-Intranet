@@ -1,0 +1,30 @@
+
+.body{
+    font-family: 'Inter', sans-serif;
+}
+.dashboard-card .card{
+    height:120px;
+    padding:24px 20px;
+    border: 2px solid #F2F2F2;
+    border-radius: 8px;
+    background-color: #F0F1F1;
+}
+.left img{
+    height: 25px;
+    width:48px;
+    margin-bottom:8px;
+}
+.left p{
+    font-size:14px;
+    font-weight:500;
+    color:#6C6C6C;
+}
+.right h1{
+    font-size:30px;
+    font-style:bold;
+    font-weight:700;
+    text-align:right;
+    position:relative;
+    bottom:15px;
+
+}

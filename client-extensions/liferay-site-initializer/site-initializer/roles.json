@@ -1,0 +1,24 @@
+[
+  {
+    "description": {
+      "en_US": "Ignek Intranet Administrator with full access"
+    },
+    "externalReferenceCode": "IGNEK-ADMIN-ROLE-ERC-001",
+    "name": "Ignek Administrator",
+    "name_i18n": {
+      "en_US": "Ignek Administrator"
+    },
+    "type": 1
+  },
+  {
+    "description": {
+      "en_US": "permission as employee"
+    },
+    "externalReferenceCode": "IGNEK-EMPLOYEE-ROLE-ERC-002",
+    "name": "Ignek Employee",
+    "name_i18n": {
+      "en_US": "Ignek Employee"
+    },
+    "type": 2
+  }
+]
